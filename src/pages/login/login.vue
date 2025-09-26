@@ -90,7 +90,7 @@ const handleWechatLogin = async () => {
 							icon: 'success'
 						})
 						setTimeout(() => {
-							uni.switchTab({
+							uni.navigateTo({
 								url: '/pages/index/index'
 							})
 						}, 1500)
@@ -139,7 +139,7 @@ const handleLogin = () => {
 	
 	// 这里替换为实际的登录接口
 	uni.request({
-		url: 'http://127.0.0.1:9090/user/login',
+		url: `http://127.0.0.1:9090/user/login`,
 		method: 'POST',
 		data: formData.value,
 		success: (res) => {
@@ -153,7 +153,7 @@ const handleLogin = () => {
 				})
 				// 跳转到首页
 				setTimeout(() => {
-					uni.switchTab({
+					uni.navigateTo({
 						url: '/pages/index/index'
 					})
 				}, 1500)
