@@ -1,7 +1,16 @@
 <script >
 	export default{
+		onLaunch() {
+			uni.onTabBarMidButtonTap(()=>{
+				console.log("点击中心按钮");
+				uni.navigateTo({
+					url: '/pages/stack/stack'
+				})
+			})
+		},
 		onShow() {
 			const token = uni.getStorageSync("sa-token")
+			
 			if(!token){
 				uni.showToast({
 					title: "未登录"
@@ -11,6 +20,7 @@
 				}),1500)
 			}
 		}
+		
 	}
 </script>
 
