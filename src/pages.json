@@ -7,6 +7,24 @@
 			}
 		},
 		{
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "订单"
+			}
+		},
+		{
+			"path": "pages/stack/stack",
+			"style": {
+				"navigationBarTitleText": "库存"
+			}
+		},
+		{
+			"path": "pages/workbench/workbench",
+			"style": {
+				"navigationBarTitleText": "任务"
+			}
+		},
+		{
 			"path": "pages/login/login",
 			"style": {
 				"navigationBarTitleText": "登录"
@@ -31,31 +49,49 @@
 			}
 		}
 	],
-    //  底部导航栏
-	// "tabBar": {
-	// 	"color": "#999999",
-	// 	"selectedColor": "#007AFF",
-	// 	"backgroundColor": "#FFFFFF",
-	// 	"borderStyle": "black",
-	// 	"list": [
-	// 		{
-	// 			"pagePath": "pages/index/index",
-	// 			"text": "首页",
-	// 			"iconPath": "static/home.png",
-	// 			"selectedIconPath": "static/home.png"
-	// 		},
-	// 		{
-	// 			"pagePath": "pages/user/user",
-	// 			"text": "我的",
-	// 			"iconPath": "static/user.png",
-	// 			"selectedIconPath": "static/user.png"
-	// 		}
-	// 	]
-	// },
+	"tabBar": {
+		"color": "#5a978f",
+		"selectedColor": "#62c8c8",
+		"backgroundColor": "#00554b",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "/src/static/home.png",
+				"selectedIconPath": "/src/static/chosed/home_chosed.png"
+			},
+			{
+				"pagePath": "pages/order/order",
+				"text": "订单",
+				"iconPath": "/src/static/order.png",
+				"selectedIconPath": "/src/static/chosed/order_chosed.png"
+			},
+			{
+				"pagePath": "pages/workbench/workbench",
+				"text": "任务",
+				"iconPath": "/src/static/workbench.png",
+				"selectedIconPath": "/src/static/chosed/workbench_chosed.png"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"text": "我的",
+				"iconPath": "/src/static/user.png",
+				"selectedIconPath": "/src/static/chosed/user_chosed.png"
+			}
+		],
+		"midButton": {
+			"iconPath": "/src/static/stock.png",
+			"text": "库存",
+			"height":"65px",
+			"iconWidth":"40px"
+		}
+		
+	},
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#FFFFFF",
+		"navigationBarBackgroundColor": "#075349",
 		"backgroundColor": "#F8F8F8"
 	},
 	"uniIdRouter": {}

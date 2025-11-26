@@ -297,7 +297,7 @@ onMounted(() => {
 
 <style>
 .index-container {
-	background-color: #F3F8EA;
+	background-color: #00554b;
 	min-height: 100vh;
 	padding-bottom: 40rpx;
 }
@@ -307,7 +307,7 @@ onMounted(() => {
 	display: flex;
 	align-items: center;
 	padding: 20rpx 30rpx;
-	background-color: #fff;
+	background-color: #00554b;
 	box-shadow: 0 2rpx 10rpx rgba(0, 0, 0, 0.1);
 }
 
