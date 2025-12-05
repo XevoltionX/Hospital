@@ -248,7 +248,7 @@ onMounted(() => {
 
 <style>
 .user-container {
-	background-color: #F3F8EA;
+	background-color: #00554b;
 	min-height: 100vh;
 	padding: 0;
 }
@@ -283,12 +283,13 @@ onMounted(() => {
 
 /* 用户信息区域 */
 .user-profile {
-	background-color: #fff;
+	background-color: #5a978f;
 	padding: 40rpx 30rpx;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	margin-bottom: 20rpx;
+	border: 1rpx solid #62c8c8;
 }
 
 .user-avatar-section {
@@ -338,7 +339,7 @@ onMounted(() => {
 .edit-btn {
 	width: 60rpx;
 	height: 60rpx;
-	background-color: #F5F5F5;
+	background-color: #62c8c8;
 	border-radius: 8rpx;
 	display: flex;
 	align-items: center;
@@ -352,11 +353,12 @@ onMounted(() => {
 
 /* 会员状态卡片 */
 .membership-card {
-	background-color: #fff;
+	background-color: #5a978f;
 	margin: 0 0 20rpx 0;
 	padding: 30rpx;
 	display: flex;
 	align-items: center;
+	border: 1rpx solid #62c8c8;	
 }
 
 .membership-icon {
@@ -368,6 +370,7 @@ onMounted(() => {
 	align-items: center;
 	justify-content: center;
 	margin-right: 20rpx;
+	
 }
 
 .v-icon {
@@ -392,11 +395,12 @@ onMounted(() => {
 
 /* 快速访问功能 */
 .quick-access {
-	background-color: #fff;
+	background-color: #5a978f;
 	padding: 40rpx 30rpx;
 	margin-bottom: 20rpx;
 	display: flex;
 	justify-content: space-around;
+	border: 1rpx solid #62c8c8;	
 }
 
 .quick-item {
@@ -476,10 +480,10 @@ onMounted(() => {
 .logout-btn {
 	width: 100%;
 	height: 90rpx;
-	background-color: #fff;
+	background-color: #5a978f;
 	color: #FF4757;
 	font-size: 32rpx;
-	border: 1rpx solid #E5E5E5;
+	border: 5rpx solid #62c8c8;
 	border-radius: 8rpx;
 	display: flex;
 	align-items: center;

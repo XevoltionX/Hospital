@@ -1,11 +1,11 @@
+<script>
+</script>
+
 <template>
 	<view class="index-container">
 		<text class="main-text">此乃任务页面</text>
 	</view>
 </template>
-
-<script>
-</script>
 
 <style>
 .index-container {
