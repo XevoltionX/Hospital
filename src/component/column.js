@@ -45,6 +45,7 @@ export function useColumnChart() {
           { name: "完成量", data: [18,27,21,24,6,28] }
         ]
       };
+	  
       chartData.value = JSON.parse(JSON.stringify(res)); 
     }, 500);
   }

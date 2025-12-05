@@ -288,8 +288,9 @@ onMounted(() => {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	margin-bottom: 20rpx;
+	margin: 0rpx 0rpx 20rpx 0rpx;
 	border: 1rpx solid #62c8c8;
+	border-radius: 10rpx;
 }
 
 .user-avatar-section {
@@ -359,6 +360,7 @@ onMounted(() => {
 	display: flex;
 	align-items: center;
 	border: 1rpx solid #62c8c8;	
+	border-radius: 10rpx;
 }
 
 .membership-icon {
@@ -401,6 +403,7 @@ onMounted(() => {
 	display: flex;
 	justify-content: space-around;
 	border: 1rpx solid #62c8c8;	
+	border-radius: 10rpx;
 }
 
 .quick-item {
