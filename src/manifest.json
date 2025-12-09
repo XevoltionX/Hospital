@@ -69,5 +69,6 @@
         "enable" : false
     },
     "vueVersion" : "3",
-    "locale" : "zh-Hans"
+    "locale" : "zh-Hans",
+    "fallbackLocale" : "zh-Hans"
 }

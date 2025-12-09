@@ -1,51 +1,59 @@
 {
 	"pages": [ 
 		{
-			"path": "pages/index/index",
+			"path": "pages/order/order",
 			"style": {
-				"navigationBarTitleText": "首页"
+				"navigationBarTitleText": "订单",
+				"navigationBarTextStyle": "white"
 			}
 		},
 		{
-			"path": "pages/order/order",
+			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "订单"
+				"navigationBarTitleText": "首页",
+				"navigationBarTextStyle": "white"
 			}
 		},
 		{
 			"path": "pages/stack/stack",
 			"style": {
-				"navigationBarTitleText": "库存"
+				"navigationBarTitleText": "库存",
+				"navigationBarTextStyle": "white"
 			}
 		},
 		{
 			"path": "pages/workbench/workbench",
 			"style": {
-				"navigationBarTitleText": "任务"
+				"navigationBarTitleText": "任务",
+				"navigationBarTextStyle": "white"
 			}
 		},
 		{
 			"path": "pages/login/login",
 			"style": {
-				"navigationBarTitleText": "登录"
+				"navigationBarTitleText": "登录",
+				"navigationBarTextStyle": "white"
 			}
 		},
 		{
 			"path": "pages/login/register",
 			"style": {
-				"navigationBarTitleText": "注册"
+				"navigationBarTitleText": "注册",
+				"navigationBarTextStyle": "white"
 			}
 		},
 		{
 			"path": "pages/user/user",
 			"style": {
-				"navigationBarTitleText": "我的"
+				"navigationBarTitleText": "我的",
+				"navigationBarTextStyle": "white"
 			}
 		},
 		{
 			"path": "pages/user/edit",
 			"style": {
-				"navigationBarTitleText": "编辑"
+				"navigationBarTitleText": "编辑",
+				"navigationBarTextStyle": "white"
 			}
 		}
 	],

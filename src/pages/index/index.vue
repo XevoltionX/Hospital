@@ -1,6 +1,6 @@
 <script setup>
 import { ref,onMounted } from 'vue'
-import { onReady,onShow} from '@dcloudio/uni-app'
+import { onLaunch, onReady,onShow} from '@dcloudio/uni-app'
 
 const chartData = ref({})
 const chartDataPie = ref({})
@@ -57,7 +57,7 @@ const getServerData = () => {
 	};
     chartData.value = JSON.parse(JSON.stringify(res)); 
 	chartDataPie.value = JSON.parse(JSON.stringify(resP));
-  }, 1000);
+  }, 500);
 }
 
 const showNotifications = () => {
@@ -74,6 +74,9 @@ const goToProfile = () => {
 }
 
 // 5. 生命周期（页面就绪后加载数据）
+onLaunch(() => {
+	getServerData();
+})
 onShow(() => {
 	getServerData();
 })
