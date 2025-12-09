@@ -104,6 +104,7 @@ onShow(() => {
 						</view>
 					</view>
 				</view>
+		<text class="main-text">医院物流系统</text>
 		<!-- 柱图 -->
 		<view class="charts-box">
 			    <view class="title-box">
@@ -138,11 +139,12 @@ onShow(() => {
 	padding-right: 20rpx;
 }	
 .main-text{
-	border-radius: 200rpx;
-	color: black;
+	color: white;
 	font-size: 50rpx;
+	font-weight: 550;
 	text-align: center;
-
+	width: 100%;
+	margin: 50rpx 30rpx;
 }
 /* 头部样式 */
 .header {
@@ -151,6 +153,9 @@ onShow(() => {
 	padding: 20rpx 30rpx;
 	background-color: #00554b;
 	box-shadow: 0 2rpx 10rpx rgba(0, 0, 0, 0.1);
+	position: sticky; /* 核心：粘性定位 */
+	top: 70rpx; /* 固定在顶部（距离顶部0px） */
+	z-index: 99; /* 确保在最上层，不被其他元素覆盖 */
 }
 
 .search-bar {
@@ -218,10 +223,11 @@ onShow(() => {
     width: 90%;
     height: 400px;
 	background-color: #fff;
-	margin: 50rpx 30rpx;
+	margin: 20rpx 30rpx;
 	border-radius: 20rpx;
 	padding: 20rpx;
 	box-shadow: 0 4rpx 20rpx rgba(0, 0, 0, 0.1);
+	
   }
 .Culcharts{
 	width: 90%;
