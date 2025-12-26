@@ -1,0 +1,106 @@
+{
+	"pages": [ 
+		{
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "订单",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/stack/stack",
+			"style": {
+				"navigationBarTitleText": "库存",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/workbench/workbench",
+			"style": {
+				"navigationBarTitleText": "任务",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/login/register",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/user/edit",
+			"style": {
+				"navigationBarTitleText": "编辑",
+				"navigationBarTextStyle": "white"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#5a978f",
+		"selectedColor": "#62c8c8",
+		"backgroundColor": "#00554b",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "/src/static/home.png",
+				"selectedIconPath": "/src/static/chosed/home_chosed.png"
+			},
+			{
+				"pagePath": "pages/order/order",
+				"text": "订单",
+				"iconPath": "/src/static/order.png",
+				"selectedIconPath": "/src/static/chosed/order_chosed.png"
+			},
+			{
+				"pagePath": "pages/workbench/workbench",
+				"text": "任务",
+				"iconPath": "/src/static/workbench.png",
+				"selectedIconPath": "/src/static/chosed/workbench_chosed.png"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"text": "我的",
+				"iconPath": "/src/static/user.png",
+				"selectedIconPath": "/src/static/chosed/user_chosed.png"
+			}
+		],
+		"midButton": {
+			"iconPath": "/src/static/stock.png",
+			"text": "库存",
+			"height":"65px",
+			"iconWidth":"40px"
+		}
+		
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#075349",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}
